@@ -74,8 +74,10 @@ def validate(brd, pos, num):
     return True
 
 
+print("Starting board")
 print_board(board)
-print("              ")
 solver(board)
+print("              ")
+print("Solved Board")
 print("              ")
 print_board(board)
